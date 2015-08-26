@@ -12,20 +12,24 @@
 	<dict>
 		<key>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</key>
 		<string>https://github.com/Alex-Besson/KindlerDay1.git</string>
+		<key>8654377ABB82C1180BDB214F49CAE1D3399F78C9</key>
+		<string>https://github.com/Alex-Besson/Kindler-Day2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Kindler.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</key>
+		<string>../../../Kindler</string>
+		<key>8654377ABB82C1180BDB214F49CAE1D3399F78C9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Alex-Besson/KindlerDay1.git</string>
+	<string>https://github.com/Alex-Besson/Kindler-Day2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</string>
+	<string>8654377ABB82C1180BDB214F49CAE1D3399F78C9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Kindler</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8654377ABB82C1180BDB214F49CAE1D3399F78C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kindler-Day2</string>
 		</dict>
 	</array>
 </dict>

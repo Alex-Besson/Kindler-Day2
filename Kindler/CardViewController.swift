@@ -43,7 +43,7 @@ class CardViewController: UIViewController {
         default:
             
             //self.view.layoutIfNeeded()
-            
+            // it works
             
             let animation = sender.translationInView(self.view)
             if let view = sender.view {
