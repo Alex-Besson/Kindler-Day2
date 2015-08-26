@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Sk-0D-ztW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root Presentation View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RootPresentationViewController" customModule="Kindler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-EF-U4l">
+                                <rect key="frame" x="180" y="64" width="240" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="STP-fA-0jp"/>
+                                    <constraint firstAttribute="width" constant="240" id="yGn-KO-8cS"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="i5O-ug-HWZ" kind="embed" id="Au3-qB-QES"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Bfh-EF-U4l" secondAttribute="centerX" id="7AK-eJ-Z1H"/>
+                            <constraint firstItem="Bfh-EF-U4l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="S4K-GG-Eio"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xSs-Ga-OGv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="347"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rp8-MG-neD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Sk-0D-ztW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rwz-pP-7r4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7i1-nR-zGV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vM2-cE-AIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="1008"/>
+        </scene>
+        <!--Card View Controller-->
+        <scene sceneID="D8U-VE-kGP">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="i5O-ug-HWZ" customClass="CardViewController" customModule="Kindler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OnZ-pg-uXn"/>
+                        <viewControllerLayoutGuide type="bottom" id="PhA-Rc-ZfK"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X2j-rX-zTU">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="280"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IXM-2U-pVV" customClass="RoundedImageView" customModule="Kindler" customModuleProvider="target">
+                                <rect key="frame" x="95" y="8" width="50" height="50"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Ha4-7Q-bfz"/>
+                                    <constraint firstAttribute="height" constant="50" id="uwm-9u-bcy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angie likes David Lynch films and cupcakes." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNX-gS-yS8">
+                                <rect key="frame" x="16" y="123" width="208" height="137"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJk-jz-eJU">
+                                <rect key="frame" x="16" y="77" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="KJk-jz-eJU" firstAttribute="leading" secondItem="X2j-rX-zTU" secondAttribute="leading" constant="16" id="1oH-x4-O66"/>
+                            <constraint firstItem="IXM-2U-pVV" firstAttribute="top" secondItem="OnZ-pg-uXn" secondAttribute="bottom" constant="8" id="GYr-jT-lqR"/>
+                            <constraint firstItem="RNX-gS-yS8" firstAttribute="leading" secondItem="X2j-rX-zTU" secondAttribute="leadingMargin" id="Rk0-Py-cxs"/>
+                            <constraint firstAttribute="centerX" secondItem="IXM-2U-pVV" secondAttribute="centerX" id="UMB-d4-4Mi"/>
+                            <constraint firstItem="RNX-gS-yS8" firstAttribute="leading" secondItem="X2j-rX-zTU" secondAttribute="leading" constant="16" id="ekc-ro-gkc"/>
+                            <constraint firstItem="RNX-gS-yS8" firstAttribute="trailing" secondItem="X2j-rX-zTU" secondAttribute="trailingMargin" id="fGy-wp-VTT"/>
+                            <constraint firstAttribute="trailing" secondItem="RNX-gS-yS8" secondAttribute="trailing" constant="16" id="jET-fD-oTu"/>
+                            <constraint firstItem="RNX-gS-yS8" firstAttribute="top" secondItem="IXM-2U-pVV" secondAttribute="bottom" constant="65" id="yor-OG-22d"/>
+                            <constraint firstItem="PhA-Rc-ZfK" firstAttribute="top" secondItem="RNX-gS-yS8" secondAttribute="bottom" constant="20" id="yxw-f6-ogx"/>
+                            <constraint firstItem="KJk-jz-eJU" firstAttribute="top" secondItem="IXM-2U-pVV" secondAttribute="bottom" constant="19" id="ztg-4J-eoo"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="pdT-cF-Gvj" appends="YES" id="0f4-6U-CUw"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbS-Co-Xmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="pdT-cF-Gvj">
+                    <connections>
+                        <action selector="actPanGesture:" destination="i5O-ug-HWZ" id="2sg-4q-7Lb"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1186" y="942"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog.jpg" width="1920" height="1200"/>
+    </resources>
+</document>

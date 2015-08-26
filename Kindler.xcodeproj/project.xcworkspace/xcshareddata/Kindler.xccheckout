@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77C42A27-0CAB-4D43-A8DB-EDF97AC2402A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kindler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</key>
+		<string>https://github.com/Alex-Besson/KindlerDay1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kindler.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Alex-Besson/KindlerDay1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>285C8AEF913BE56073FF7BC3BF73C7114AF0143A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kindler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
